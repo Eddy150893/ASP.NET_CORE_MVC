@@ -1,0 +1,122 @@
+ASP.Net Core
+Entity Framework Core
+
+Existen dos versiones diferentes de .net en paralelo
+
+1. version full(Net Framework 4.7) de pago
+	ASP.NET 5
+	Entity Framework 6 
+						Web Forms
+						MVC 5
+						Web Api 2
+						SignalR 2
+						Web Pages
+
+2. Core Framework 2 open source
+	ASP.NET Core 2
+	Entity Framework Core 2
+							ASP.Net Core MVC(incluye web api)
+							SignalR
+							Web Pages
+La version dos ademas de ser open source es multiplataforma.
+Las ediciones Core tienen menos funcionalidad que las versiones "Full"; pero a cambio funcionan en Windows, Mac y Linux y son mas agiles(mayor rendimiento) y mas granulares.
+
+ASP.NET Full framework(la version 1) es presente en cientos de millones de equipos de todo el mundo, y es una de las principales tecnologias utilizadas en la empresa. ASP.NET MVC 5.x es el motor de miles y miles de aplicacion que se deben seguir manteniendo.
+
+Por otro lado .Net Core es una tecnologia prometedora creada desde cero pensando en que sea multiplataforma y lo mas eficiente posible. Por ello es interesante aprenderla si quieres crear aplicaciones que sean capaz de ejecutarse en Windows, Linux y MAc o si el rendimiento es realmente crucial para las mismas.
+
+Que es ASP.NET Core MVC?
+
+Active server page(ASP clasico)(1996)
+Es una tecnologia de Microsoft del tipo "lado del servidor" para paginas web generadas dinamicamente, que ha sido comercializada como un anexo a Internet Information Services (IIS). 
+Limitada a funcionar solo en Microsoft Windows, pues requiere de IIS.
+ASP 1.0(distribuido con IIS 3.0)
+ASP 2.0(distribuido con IIS 4.0)
+ASP 3.0(distribuido con IIS 5.0)
+
+ASP.NET(2002-Presente)
+Lanzado por primera vez con .NET Framework 1.0.
+Entorno para aplicaciones web desarrollado y comercializado por Microsoft.
+Usa HTML como marcado para ser interpretado por el servidor y generar contenido dinamico.
+Es usado por programadores y diseñadores para construir sitios web dinamicos, aplicaciones web y servicios web XML.
+Esta construido sobre el Common Language Runtime,permitiendo a los programadores escribir codigo Asp.Net usando cualquier lenguaje admitido por el .NET Framework(VB,C#).
+Versiones posteriores introdujeron las paginas maestras/motor plantillas.
+Uso del modelo code-behind, o de respaldo, que coloca el codigo en un archivo separado o en una etiqueta de script especialmente diseñada.
+
+ASP.NET MVC(2009-Actualmente)
+Contruido en la plataforma ASP.NET pero utilizando el patron desarro Model-View-Controller.
+MVC es un patron de arquitectura que ayuda a crear una separacion logica entre el modelo(la logica de acceso a datos), la vista(la logica de presentacion) y el controlador(la logica de negocio).
+
+Uno de los pilares basicos de ASP.NET MVC es el concepto de enrutamiento.(routing)
+
+De forma predeterminada,ASP.NET MVC enruta las peticiones al controlador y a la vista adecuada en funcion de la URL.
+
+EJEMPLO ASP.NET
+http://website/productos.aspx?categoria=dvd
+donde tenemos
+website:la direccion del sitio web
+productos.aspx:archivo fisico que debe existir dentro del root del servidor
+?categoria=dvd y le enviamos el parametro
+
+EJEMPLO ASP.NET MVC
+http://website/productos/dvd
+donde tenemos
+website: la direccion del sitio web
+productos: el controlador
+dvd: el parametro que le enviamos al controlador
+
+ASP.NET Core MVC(2016-Actualmente)
+ASP.NET Core es un nuevo marco de codigo abierto y multiplataforma para la creacion de aplicaciones modernas, basadas en la nube, conectadas a Internet, como aplicaciones web, aplicaciones IoT(Internet of things) y backends moviles.
+Unifica MVC con Web Api.
+Se diseño para proporcionar un marco de desarrollo optimizado para las aplicaciones que se implementan en la nube o se ejecutan en las instalaciones.
+
+Cuenta con componentes modulares con un minimo de gastos generales, por lo que se conserva la flexibilidad al construir sus soluciones.
+Puede desarrollar y ejecutar aplicaciones ASP.NET Core en Windows, Mac y Linux.
+De codigo abierto y centrado en la comunidad.
+
+¿Que es Entity Framework Core?
+Es un framework de mapeo objeto relacional (ORM) open source.
+Entity Framework permite a los desarrolladores trabajar con datos en forma de objetos y propiedades especificos del dominio, sin tener que preocuparse por las tablas y columnas de la base de datos subyacente donde se almacenan estos datos.
+
+Es util en tres escenarios
+1. Si ya tienes tu bbdd puedes generar tus clases a partir de las tablas de tu bbdd.
+
+2. Crear primero las clases y apartir de esto crear las tablas de la bbdd.
+
+3. Crear bases de datos y clases desde el diseño del modelo de BD.
+
+HISTORIA DE ENTITY FRAMEWORK 
+
+Entity Framework 1
+
+La primera version de Entity Framework (EFv1) se incluye con .NET Framework 3.5 Service Pack 1 y Visual Studio 2008 Service Pack 1, publicado el 11 de agosto de 2008. Esta version fue ampliamente criticada, incluso atrayendo un "voto de no confianza" firmado por aproximadamente mil desarrolladores.
+
+Entity Framework 4.0
+
+La segunda version fue lanzada como parte de .NET 4.0 el 12 de abril de 2010 y abordo muchas de las criticas hechas de la version 1.
+
+Entity Framework 4.1
+
+Una tercera version de Entity Framework, version 4.1, fue lanzada el 12 de abril de 2011, con soporte de Code First.
+
+Entity Framework 5.0
+
+Version 5.0 fue lanzada el 11 de agosto de 2012 y esta dirigido a .NET Framework 4.5
+
+Entity Framework 6.0
+
+Version 6.0 fue lanzado el 17 de octubre de 2013 y ahora es un proyecto de codigo abierto bajo licencia de Apache v2. Al igual que ASP.NET MVC, su codigo fuente esta alojado en GitHUb usando Git.
+
+Entity Framwork Core
+
+EF Core 1.0 fue lanzado junto ASP.NET Core 1.0 el 27 de junio de 2016.
+
+EF Core 1.0 esta bajo la licencia Apacje v2, y esta siendo contruido enteramente en abierto con GitHub.
+
+Entity Framework Core
+Aunque EF Core comparte algunas similitudes conceptuales con versiones anteriores de Entity Framework, es una base de codigo completamente nueva diseñada para ser mas eficiente, potente, flexible y extensible, se ejecutara en Windows, Linux y OSX, y soportara una nueva gama de base de datos Relacionales y de datos NOSQL.
+
+Entity Framework Core
+El 28 de junio del 2017 se anuncio la version EF Core 2.0 Preview 2.
+
+voy por la seccion 2
