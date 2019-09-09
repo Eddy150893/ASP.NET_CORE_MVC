@@ -119,4 +119,11 @@ Aunque EF Core comparte algunas similitudes conceptuales con versiones anteriore
 Entity Framework Core
 El 28 de junio del 2017 se anuncio la version EF Core 2.0 Preview 2.
 
-voy por la seccion 2
+Se tiene que descargar el sdk version 3
+https://dotnet.microsoft.com/download/dotnet-core/3.0
+en la parte donde dice Build apps -SDK
+se elige la version de windwos de 64 bits
+luego de instalar se habra creado la carpeta a continuacion
+C:\Program Files\dotnet\sdk\3.0.100-preview9-014004
+la renombras para que quede de esta manera
+C:\Program Files\dotnet\sdk\3.0.100
